@@ -2,7 +2,7 @@ package com.mkyong;
 
 import org.junit.Assert;
 import org.junit.Test;
-import com.mkyong.App;
+
 
 public class AppTest {
 
