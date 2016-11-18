@@ -29,5 +29,14 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	<build>
+             <plugins>
+                   <plugin>
+                             <groupid>org.codehaus.mojo</groupid>
+                             <artifactid>sonar-maven-plugin</artifactid>
+                   </plugin>
+             </plugins>
+         </build>
 
 </project>
