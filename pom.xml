@@ -6,7 +6,7 @@
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>SampleApplication</name>
- 
+	<url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -16,7 +16,14 @@
     </dependency>
  
   </dependencies>
-  
+  <distributionManagement>
+	<snapshotRepository>
+		<id>nexus</id>
+		<name>Demo</name>
+		<url>http://35.184.166.140:8081/repository/maven-snapshots/</url>
+	</snapshotRepository>
+   </distributionManagement>
+	
   <build>
   	<plugins>
   		<plugin>
