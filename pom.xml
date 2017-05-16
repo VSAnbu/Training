@@ -31,7 +31,7 @@
 		<plugin>
    <groupId>org.sonatype.plugins</groupId>
    <artifactId>nexus-staging-maven-plugin</artifactId>
-   <version>1.5.1</version>
+   <version>3.3.1</version>
    <executions>
       <execution>
          <id>default-deploy</id>
@@ -41,7 +41,11 @@
          </goals>
       </execution>
    </executions>
-  
+   <configuration> 
+   <serverId>nexus</serverId>	   
+   <nexusUrl>http://http://35.184.166.140:8081/</nexusUrl>
+	   <skipStaging>true</skipStaging>
+			</configuration>
 </plugin>
 		
   	</plugins>
