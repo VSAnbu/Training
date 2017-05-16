@@ -50,7 +50,7 @@
    </executions>
    <configuration> 
    <serverId>nexus</serverId>	   
-   <nexusUrl>http://http://35.184.166.140:8081/</nexusUrl>
+   <nexusUrl>http://35.184.166.140:8081/</nexusUrl>
 	   <skipStaging>true</skipStaging>
 			</configuration>
 </plugin>
